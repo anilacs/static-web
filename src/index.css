@@ -1,0 +1,155 @@
+.partial{
+  width: 985.60px; 
+  height: 853px; 
+  position: absolute; 
+  border-top-left-radius: 323px;
+  border-bottom-left-radius: 9526.50px;
+  margin-left: 70%;
+  margin-top: -90px;
+  z-index: 1;
+
+}
+.homecont{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mailbt{
+  background-color: rgb(54, 52, 37);
+  border-radius: 20px;
+  border: none;
+}
+.mailinp{
+  border-radius: 20px;
+}
+.contpara{
+  text-align: justify;
+  width: 60%;
+  margin-left: 50px;
+}
+a{
+  text-decoration: none;
+}
+.ordbtn{
+  height: 50px;
+  font-size: 20px;
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.abtimg{
+  width: 680px;
+  margin-top: 200px;
+  position: relative;
+  z-index: 40;
+}
+@media only screen and (max-width:1400px) {
+  #home{
+      padding-top: 200px;
+  }
+  .homecont{
+      /* flex-wrap: wrap; */
+      margin-top: -40px;
+  }
+  .partial{
+      margin-left: -150px;
+      margin-top: -200px;
+      border-top-left-radius: 23px;
+  border-bottom-left-radius: 9526.50px;
+  }
+  .bannerimg{
+      margin-top: -80px;
+  }
+  .contpara{
+      width: 20%;
+  }
+  .partial{
+     margin-left: 58%;
+     width: 200px;
+     height: 400px;
+  }
+  .partial2{
+      display: none;
+  }
+  .fullbodyabt{
+      flex-wrap: wrap;
+  }
+  .abcon{
+      width: 100%;
+  }
+  .card1{
+      flex-wrap: wrap;
+  }
+  .card2{
+      flex-wrap: wrap;
+  }
+
+
+}
+@media only screen and (max-width:1497px) {
+  .partial{
+      width: 500px;
+      margin-left: 67%;
+  }
+  .homecont{
+     justify-content: space-around;
+  }
+  .bannerimg{
+      margin-left: 50px;
+  }
+  #about{
+      margin-top: 350px;
+  }
+  
+  
+}
+@media only screen and (max-width:1152px) {
+  .homecont{
+      flex-wrap: wrap;
+  }
+  .partial{
+      display: none;
+  }
+  .fullbodyabt{
+      flex-wrap: wrap;
+  }
+  .abtimg{
+      width: 100%;
+      margin: auto;
+  }
+  .contab{
+      margin: 20px;
+  }
+  #home{
+     text-align: center; 
+  }
+  
+  .contpara{
+     text-align: center;
+     width: 70%;
+     margin: auto;
+  }
+  .bannerimg{
+      margin-top: 50px;
+  }
+  #about{
+      margin-top: 600px;
+  }
+}
+@media only screen and (max-width:492px) {
+  .abtimg{
+      width: 100%;
+  }
+  #about{
+      margin-top: 350px;
+  }
+  .abtimg{
+      width: 300px;
+  }
+  .fullbodyabt{
+      text-align: center;
+  }
+  .abcon{
+      text-align: justify;
+  }
+}
